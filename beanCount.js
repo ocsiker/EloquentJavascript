@@ -33,3 +33,4 @@ let person = [person1, person2, person3];
 
 console.log(typeof person);
 console.log(person[0].name);
+console.log('some news from here');
