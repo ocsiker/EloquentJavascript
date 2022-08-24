@@ -209,3 +209,11 @@ let str = JSON.stringify({squirrel: false, events: ['weekends']});
 console.log(str);
 
 console.log(JSON.parse(str).events);
+
+function repeat(number, action) {
+  for (let index = 0; index < number; index++) {
+    action(index);
+  }
+}
+
+repeat(3, console.log);
