@@ -1,5 +1,3 @@
-const {type} = require('os');
-
 function countChar(string, char) {
   let count = 0;
   for (let index = 0; index < string.length; index++) {
