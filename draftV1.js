@@ -19,3 +19,14 @@ function greaterThan(n) {
 let greaterThan10 = greaterThan(10);
 
 console.log(greaterThan10(11));
+
+function noisy(f) {
+  return (...arg) => {
+    console.log('calling with args', arg);
+    let result = f(...arg);
+    console.log('called with ', arg, ', returned', result);
+    return result;
+  };
+}
+
+noisy(Math.min)(1, 4, 3, 4, 56);
