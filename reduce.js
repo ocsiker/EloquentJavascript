@@ -37,3 +37,5 @@ function characterCount(script) {
 }
 let obj = SCRIPTS.filter(i => i.name == 'Cuneiform');  // value return is array
 console.log(characterCount(obj[0]));
+//
+// check out for reduce branch github
