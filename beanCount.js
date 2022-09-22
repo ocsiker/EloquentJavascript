@@ -1,14 +1,19 @@
-function countChar(string, char) {
+function countChar(string, char)
+{
   let count = 0;
-  for (let index = 0; index < string.length; index++) {
+  for (let index = 0; index < string.length; index++)
+  {
     if (string[index] == char) count++;
   }
   return count;
 }
-function countBs(string) {
+function countBs(string)
+{
   let count = 0;
-  for (let index = 0; index < string.length; index++) {
-    if (string[index] == 'B') {
+  for (let index = 0; index < string.length; index++)
+  {
+    if (string[index] == 'B')
+    {
       count++;
     }
   }
